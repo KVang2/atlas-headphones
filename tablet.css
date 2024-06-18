@@ -1,0 +1,24 @@
+/* CSS for tablet */
+
+@media (min-width: 768px) and (max-width: 1072px) {
+    body {
+        padding: 20px;
+    }
+}
+
+header {
+    background-image: url('images/headphones_hero_1.jpg')
+
+}
+
+body {
+    text-align: center;
+}
+
+.HP {
+    margin-top: 25px;
+}
+
+.b1 {
+    boarder-radius: 40rem;
+}
