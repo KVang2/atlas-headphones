@@ -134,10 +134,54 @@ body {
     height: 100%;
 }
 
+.hex-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25%;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    margin-right: 20%;
+    color:#FFFFFF;
+}
+
+.hour {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    color:#FFFFFF;
+}
+
+.hour h2 {
+    margin: 15%;
+}
 
 
+.hourp {
+    display:flex;
+    justify-content: center;
+    color:#FFFFFF;
+    margin-top: -10%;
+}
 
+.hex1, .hex2, .hex3, .hex4 {
+    background-image: url('images/pentagone.png');
+    background-size: cover;
+    height: 190px;
+    width: 210px;
+}
 
+.htitle {
+    font-size: 46px;
+}
+
+.htitle, .l {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin: 10px;
+}
 
 .button {
     background-color: #FF6565;
@@ -156,6 +200,27 @@ body {
     background-color: #071629;
     padding: 8%;
 }
+
+.con {
+    margin: 20%;
+}
+
+.us {
+    margin: 5%;
+}
+
+.name {
+    margin: 10%;
+}
+
+.Email {
+    margin: 10%;
+}
+
+.message {
+    margin: 10%;
+}
+
 
 .fl {
     display: flex;
