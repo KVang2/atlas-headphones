@@ -230,16 +230,17 @@ body {
 
 .fl {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     position: relative;
-    top: 2em;
+    top: 0.5em;
 }
 
 .footer-images {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
+    position: relative;
+    top: 2em;
     gap: 3%;
 }
 
