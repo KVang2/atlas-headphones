@@ -141,7 +141,7 @@ html {
 }
 
 .hero {
-  background: url(tasks/images/headphones_hero_1.jpg) center/cover no-repeat; 
+  background: url(images/headphones_hero_1.jpg) center/cover no-repeat; 
   display: flex;
   flex-shrink: 0;
   width: 100%;
@@ -301,8 +301,7 @@ button:hover {
 
 .OUR_container {
   width: 100%;
-  background: url(tasks/images/headphones_hero_2.jpg) center/cover no-repeat;
-  z-index: 1;
+  background: url(images/headphones_hero_2.jpg) center/cover no-repeat;
   display: flex;
   flex-shrink: 0;
   align-items: center;
