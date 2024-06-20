@@ -1,4 +1,3 @@
-
 :root {
   --font-family: "Source Sans Pro", sans-serif;
   --font-size-xsmall: 12px;
@@ -42,19 +41,19 @@ html {
     transform: translate(-50%, -50%);
     max-width: 1000px;
   }
-  
+
   .header_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
   }
-  
+
   nav {
     display: flex;
     gap: 41px;
   }
-  
+
   nav a {
     text-decoration: none;
     color: var(--color-white);
@@ -64,12 +63,12 @@ html {
     font-weight: 700;
     line-height: normal; 
   }
-  
+
   a:hover, a:active {
     color: var(--color-red);
     opacity: 0.9
   }
-  
+
   #logo {
     width: 161px;
     height: 32px;
@@ -141,7 +140,7 @@ html {
 }
 
 .hero {
-  background: url(images/headphones_hero_1.jpg) center/cover no-repeat; 
+  background: url(tasks/images/headphones_hero_1.jpg) center/cover no-repeat; 
   display: flex;
   flex-shrink: 0;
   width: 100%;
@@ -301,7 +300,8 @@ button:hover {
 
 .OUR_container {
   width: 100%;
-  background: url(images/headphones_hero_2.jpg) center/cover no-repeat;
+  background: url(tasks/images/headphones_hero_2.jpg) center/cover no-repeat;
+  z-index: 1;
   display: flex;
   flex-shrink: 0;
   align-items: center;
@@ -399,7 +399,7 @@ button:hover {
   height: 373px;
   justify-content: space-between;
   gap: 50px;
-  
+
 }
 
 .form_container h1 {
