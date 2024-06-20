@@ -109,27 +109,30 @@ body {
 }
 
 .Lorem0 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 25%;
     margin-bottom: 25%;
 }
 
 .Lorem1 {
-    margin-top: 4%;
+    grid-column: span 2;
+    grid-row: 2;
 }
 
 .Lorem2 {
-
+    grid-column: span 2;
+    grid-row: 2;
 }
 
 .Lorem3 {
-    margin-top: 15%;
+    grid-column: span 2;
+    grid-row: 1;
 }
 
 .Lorem4 {
-    margin-top: 14%;
+    grid-column: span 2;
+    grid-row: 1;
 }
 
 .hero {
