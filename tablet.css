@@ -4,6 +4,21 @@
     body {
         padding: 20px;
     }
+
+    .fl {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        top: 2em;
+    }
+
+    .footer-images {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 3%;
+    }
 }
 
 header {
@@ -147,12 +162,14 @@ body {
 
 .hex-con {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 25%;
     margin-left: 20%;
     margin-top: 15%;
     margin-bottom: 25%;
     margin-right: 20%;
+    height: 100%;
+    width: 100%;
     color:#FFFFFF;
 }
 
@@ -226,22 +243,6 @@ body {
 
 .message {
     margin: 10%;
-}
-
-
-.fl {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    top: 2em;
-}
-
-.footer-images {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    gap: 3%;
 }
 
 .footer-caption {
