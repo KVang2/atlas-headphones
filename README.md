@@ -5,3 +5,7 @@ My partner Raesean and I created 3 different model for this figma. Raesean worke
 
 
 https://kvang2.github.io/atlas-headphones/
+
+## Authors
+- **[Kevin Vang](https://github.com/kvang2)**
+- **[Rasheed White](https://github.com/ReyesxRoyal)**
